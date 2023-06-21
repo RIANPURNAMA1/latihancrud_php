@@ -1,0 +1,60 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+  margin-bottom: 4rem !important;
+}
+
+
+
+/* form table */
+.table-container{
+    overflow: auto;
+}
+
+
+/* footer */
+.header-footer p{
+    font-weight: 200;
+}
+
+/* responsif web design */
+@media (max-width:1200px){
+  html{
+    font-size: 60%;
+  }
+}
+  @media (max-width: 1200px) {
+    html{
+      font-size: 70%;
+   
+    }
+    th, td {
+      min-width: 100px;
+    }
+    .card-dashboard{
+      padding-top: 1rem;
+    }
+  }
+  @media (max-width: 500px) {
+  .login{
+    margin-left: 1.4rem;
+    }
+    th, td {
+      min-width: 1200px;
+    }
+  }
+  @media (max-width: 400px) {
+  .login{
+    margin-left: 1.4rem;
+    }
+    th, td {
+     min-width: 100px;
+    }
+  }
+
+  
+  
+  
+  
+  
